@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sōl Fragrance — Dark Fragrance Store</title>
+  <meta name="description" content="Static dark-theme fragrance storefront with editable JSON and Shopify-inspired layout." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span>Free shipping on orders over $75</span>
+        <span class="topbar-sep">•</span>
+        <span>Dark luxury fragrance storefront</span>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="#">
+          <span class="brand-mark">Sōl</span>
+          <span class="brand-sub">Fragrance</span>
+        </a>
+
+        <nav class="nav desktop-nav">
+          <a href="#shop">Shop</a>
+          <a href="#featured">Featured</a>
+          <a href="#story">Our Story</a>
+        </nav>
+
+        <div class="header-actions">
+          <label class="search-wrap" aria-label="Search fragrances">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.35-4.35m1.85-5.15a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <input id="searchInput" type="text" placeholder="Search fragrance, note, brand..." />
+          </label>
+          <button class="cart-button" id="cartButton" type="button" aria-label="Open cart">
+            <span>Cart</span>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Dark. Clean. Premium.</p>
+            <h1>Build a fragrance storefront that feels like a modern luxury brand.</h1>
+            <p class="hero-text">
+              Static hosting, editable JSON, polished product cards, collection filters, and a smooth cart flow —
+              designed to feel close to a dark Shopify-style fragrance shop.
+            </p>
+            <div class="hero-actions">
+              <a href="#shop" class="btn btn-primary">Shop Collection</a>
+              <a href="#featured" class="btn btn-secondary">Best Sellers</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-bottle bottle-1"></div>
+            <div class="hero-bottle bottle-2"></div>
+            <div class="hero-bottle bottle-3"></div>
+            <div class="hero-card-glow"></div>
+            <div class="hero-card-content">
+              <p class="mini-label">Featured Profile</p>
+              <h2>Vanilla Smoke</h2>
+              <p>Amber woods, roasted coffee, vanilla resin, soft spice.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-strip" id="featured">
+        <div class="container feature-strip-grid">
+          <article>
+            <h3>Luxury look</h3>
+            <p>Premium dark storefront styling with polished cards and subtle glow.</p>
+          </article>
+          <article>
+            <h3>Editable data</h3>
+            <p>All products live inside <code>products.json</code> so you can update the shop quickly.</p>
+          </article>
+          <article>
+            <h3>GitHub Pages ready</h3>
+            <p>Pure HTML, CSS, JS — no build step required.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-section" id="shop">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Collection</p>
+              <h2>Shop Fragrances</h2>
+            </div>
+            <p class="muted" id="resultsText">Loading fragrances…</p>
+          </div>
+
+          <div class="shop-layout">
+            <aside class="filters">
+              <div class="filter-card">
+                <h3>Browse</h3>
+                <button class="filter-chip active" data-filter-type="collection" data-filter-value="All">All</button>
+                <button class="filter-chip" data-filter-type="collection" data-filter-value="Men">Men</button>
+                <button class="filter-chip" data-filter-type="collection" data-filter-value="Women">Women</button>
+                <button class="filter-chip" data-filter-type="collection" data-filter-value="Unisex">Unisex</button>
+              </div>
+
+              <div class="filter-card">
+                <h3>Style</h3>
+                <button class="filter-chip" data-filter-type="style" data-filter-value="Fresh">Fresh</button>
+                <button class="filter-chip" data-filter-type="style" data-filter-value="Sweet">Sweet</button>
+                <button class="filter-chip" data-filter-type="style" data-filter-value="Woody">Woody</button>
+                <button class="filter-chip" data-filter-type="style" data-filter-value="Amber">Amber</button>
+              </div>
+
+              <div class="filter-card">
+                <h3>Sort</h3>
+                <select id="sortSelect">
+                  <option value="featured">Featured</option>
+                  <option value="price-asc">Price: Low to High</option>
+                  <option value="price-desc">Price: High to Low</option>
+                  <option value="name-asc">Name: A–Z</option>
+                </select>
+              </div>
+            </aside>
+
+            <div class="product-area">
+              <div id="productGrid" class="product-grid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section" id="story">
+        <div class="container story-grid">
+          <div>
+            <p class="eyebrow">Brand Story</p>
+            <h2>Designed for clone sellers, decanters, and fragrance curators.</h2>
+            <p class="hero-text">
+              This starter shop is meant to be customized. Swap the branding, edit the JSON, replace placeholder imagery,
+              and deploy it on GitHub Pages for a polished storefront feel without a complex backend.
+            </p>
+          </div>
+          <div class="story-panel">
+            <h3>What to edit first</h3>
+            <ul>
+              <li>Update the brand name in <code>index.html</code></li>
+              <li>Add your product photos in an <code>imgs/</code> folder</li>
+              <li>Edit pricing, notes, and tags in <code>products.json</code></li>
+              <li>Replace the cart checkout placeholder with your preferred checkout flow later</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-overlay" id="cartOverlay"></div>
+      <div class="cart-panel">
+        <div class="cart-panel-head">
+          <h2>Your Cart</h2>
+          <button id="closeCart" class="icon-button" type="button" aria-label="Close cart">✕</button>
+        </div>
+
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-footer">
+          <div class="cart-total-row">
+            <span>Subtotal</span>
+            <strong id="cartSubtotal">$0.00</strong>
+          </div>
+          <button class="btn btn-primary btn-full" id="checkoutBtn" type="button">Checkout</button>
+          <p class="cart-note">Static demo checkout. Replace this with Stripe, Formspree, Shopify Buy Button, or another hosted checkout later.</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <template id="productCardTemplate">
+    <article class="product-card">
+      <div class="product-image-wrap">
+        <img class="product-image" alt="" loading="lazy" />
+        <span class="product-badge"></span>
+      </div>
+      <div class="product-body">
+        <p class="product-brand"></p>
+        <h3 class="product-name"></h3>
+        <p class="product-notes"></p>
+        <div class="product-meta">
+          <span class="product-size"></span>
+          <span class="product-price"></span>
+        </div>
+        <button class="btn btn-primary add-to-cart-btn" type="button">Add to cart</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

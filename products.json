@@ -1,0 +1,97 @@
+[
+  {
+    "id": "afnan-9pm",
+    "name": "9PM",
+    "brand": "Afnan",
+    "collection": "Men",
+    "price": 39.99,
+    "size": "100ml",
+    "notes": "Sweet vanilla, apple, tonka, amber woods.",
+    "styleTags": [
+      "Sweet",
+      "Amber"
+    ],
+    "featured": true,
+    "badge": "Best Seller",
+    "image": "https://dummyimage.com/800x800/161b25/f4f6fb.png&text=Afnan+9PM"
+  },
+  {
+    "id": "lattafa-khamrah",
+    "name": "Khamrah",
+    "brand": "Lattafa",
+    "collection": "Unisex",
+    "price": 44.99,
+    "size": "100ml",
+    "notes": "Cinnamon, praline, vanilla, dates, warm woods.",
+    "styleTags": [
+      "Sweet",
+      "Amber"
+    ],
+    "featured": true,
+    "badge": "Trending",
+    "image": "https://dummyimage.com/800x800/141922/f4f6fb.png&text=Lattafa+Khamrah"
+  },
+  {
+    "id": "armaf-iconic",
+    "name": "Club de Nuit Iconic",
+    "brand": "Armaf",
+    "collection": "Men",
+    "price": 49.99,
+    "size": "105ml",
+    "notes": "Citrus, blue freshness, dry woods, clean musk.",
+    "styleTags": [
+      "Fresh",
+      "Woody"
+    ],
+    "featured": false,
+    "badge": "",
+    "image": "https://dummyimage.com/800x800/131923/f4f6fb.png&text=Armaf+Iconic"
+  },
+  {
+    "id": "yara-pink",
+    "name": "Yara",
+    "brand": "Lattafa",
+    "collection": "Women",
+    "price": 29.99,
+    "size": "100ml",
+    "notes": "Creamy tropical sweetness with soft powder and musk.",
+    "styleTags": [
+      "Sweet"
+    ],
+    "featured": false,
+    "badge": "",
+    "image": "https://dummyimage.com/800x800/19141b/f4f6fb.png&text=Lattafa+Yara"
+  },
+  {
+    "id": "qaed-al-fursan",
+    "name": "Qaed Al Fursan",
+    "brand": "Lattafa",
+    "collection": "Men",
+    "price": 24.99,
+    "size": "90ml",
+    "notes": "Bright pineapple, woody depth, sweet smoky character.",
+    "styleTags": [
+      "Woody",
+      "Sweet"
+    ],
+    "featured": false,
+    "badge": "Value Pick",
+    "image": "https://dummyimage.com/800x800/171612/f4f6fb.png&text=Qaed+Al+Fursan"
+  },
+  {
+    "id": "eclaire",
+    "name": "Eclaire",
+    "brand": "Lattafa",
+    "collection": "Women",
+    "price": 54.99,
+    "size": "100ml",
+    "notes": "Caramel, milk, vanilla cream, airy soft sweetness.",
+    "styleTags": [
+      "Sweet",
+      "Amber"
+    ],
+    "featured": true,
+    "badge": "New",
+    "image": "https://dummyimage.com/800x800/1a1612/f4f6fb.png&text=Lattafa+Eclaire"
+  }
+]
