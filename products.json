@@ -84,5 +84,101 @@
     "featured": false,
     "badge": "New",
     "image": "https://isthattoasted.github.io/fragshop/imgs/armaf-mandarin-skies.jpg"
+  },
+  {
+    "id": "burberry-london-women",
+    "name": "London - Women",
+    "brand": "Burberry",
+    "collection": "Women",
+    "price": 50.0,
+    "size": "100ml",
+    "notes": "Honeysuckle, Tangerine, Rose, Jasmine, Tiare Flower, Peony, Clementine, Musk Sandalwood, Patchouli",
+    "styleTags": [
+      "White Floral",
+      "Citrus",
+      "Fruity",
+      "Floral",
+      "Rose"
+    ],
+    "featured": false,
+    "badge": "New",
+    "image": "https://isthattoasted.github.io/fragshop/imgs/burberry-london-women.jpg"
+  },
+  {
+    "id": "burberry-brit-for-him",
+    "name": "Burberry",
+    "brand": "Brit For Him",
+    "collection": "Men",
+    "price": 45.0,
+    "size": "100ml",
+    "notes": "Juniper Berries, Cardamom, Verbena, Basil, Leather, Patchouli, Styrax, Tonka Bean, Cedar, Incense",
+    "styleTags": [
+      "Aromatic",
+      "Woody",
+      "Amber",
+      "Warm Spicy",
+      "Leather",
+      "Vanilla"
+    ],
+    "featured": false,
+    "badge": "New",
+    "image": "https://isthattoasted.github.io/fragshop/imgs/burberry-brit-for-him.webp"
+  },
+  {
+    "id": "calvin-klein-obsession",
+    "name": "Obsession - Women",
+    "brand": "Calvin Klein",
+    "collection": "Women",
+    "price": 40.0,
+    "size": "100ml",
+    "notes": "Vanilla, Basil, Bergamot, Mandarin Orange, Green Notes, Peach, Lemon, Spices, Sandalwood, Coriander, Oakmoss, Cedar, Orange Blossom, Jasmine, Rose, Amber, Incense, Vanilla, Civet, Musk, Vetiver",
+    "styleTags": [
+      "Amber",
+      "Warm Spicy",
+      "Woody",
+      "Powdery",
+      "Aromatic"
+    ],
+    "featured": false,
+    "badge": "On Sale",
+    "image": "https://isthattoasted.github.io/fragshop/imgs/calvin-klein-obsession.webp"
+  },
+  {
+    "id": "coach-open-road",
+    "name": "Open Road",
+    "brand": "Coach",
+    "collection": "Men",
+    "price": 50.0,
+    "size": "100ml",
+    "notes": "Lemon, Red Apple, Sichuan Pepper, Clary Sage, Lavender, Vetiver, Cedar, Patchouli",
+    "styleTags": [
+      "Aromatic",
+      "Woody",
+      "Citrus",
+      "Fresh Spricy",
+      "Earthy"
+    ],
+    "featured": false,
+    "badge": "New",
+    "image": "https://isthattoasted.github.io/fragshop/imgs/coach-open-road.webp"
+  },
+  {
+    "id": "Coach-for-Men-Eau-De-Parfum",
+    "name": "Men Eau De Parfum",
+    "brand": "Coach",
+    "collection": "Men",
+    "price": 45.0,
+    "size": "40ml",
+    "notes": "Cardamom, Bergamot, Cedarwood, Geranium, Saffiano Leather, Vetiver",
+    "styleTags": [
+      "Aromatic",
+      "Woody",
+      "Warm Spicy",
+      "Fresh Spicy",
+      "Citrus"
+    ],
+    "featured": false,
+    "badge": "New",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACUCAMAAACp1UvlAAAA0lBMVEX////x7+Lf3dA7g4JNo6Tq6Nv8/PyDg4NfX2BERUhCQ0c5OTuSko37+esqKi/k4tSbmZTLy8aRkZJUVFUwLzJAd3djZWZSlpZJSkzTpUc+PkDwtlH2ulDu8OA/YWG0xr7S5NxCm5rY2NPl5eKsraqkpaDCwry6urL269D05MP28Nzz3rLxw2v1tj/PnDPLnTngwYbSrmHWtHP10Izn0qfr0p/gxpLJ0cWlvLTvz5P3w2UhdnaEpp9Ri4hlmZPE29Cq0MmAt7RsrqyTwr9ug4FbdnUhw9y4AAAC0UlEQVR4nO3aXXeaMBzHcW2gnVqaWq1DFBGtnXZT164bVLQ+tHv/b2mgIo82bCcgO+f3vfLyc5Lwz4UpFBBCCCGEEEIIIYQQQgghhNDpOu9VedU758fqN2qyLJcYyeV6hZ1S63Fj1UqyrNQazGqsSlcVpVLpc3LdKfZqDURm9IzZQFGU+g0n14W9RfdSkZnIdtEv9oI1OB0x29VIwEriOhMblconbq7SJS8Xvbzi6Crzc13DBRdccMH1P7mGo9FDzlxqsfj123g8mX5/cH6reXHZrHa73Wo2p4/BJTu1a9TauZqTJzVPrh/tvavZHOVpH1sH1/Q5T+vlc/3Mk2vm7WOu1uvFcw3z5BrO3O/xl//Yx7iooZmaQbNxqcVRe+y4Jk+M+UXNBbHIwqSZuGzY8GU2az4+hy6nsIuaZJtlZOPa7uVwyLofqUH2zWlmLnflPnBp5JCWlSsIinctPNermJErtqDr1WMR63D0M3GpavHY/UjnxN9rlusV3kyfi5pWwGWZmbqk7jJ2rlKNhKMZurqCruurqIsaVsQ1F7NySUth2zLiMhYRFlkYWblW+s6lL8OuGJY7XNN3rfcsu27QNY/uInFvo7Rd3Y3gtVF9LhrP2s+KlF1dwZ++9lzuZR2TlrrrTReCsLeDKzohvKOftivMsmEraecyjrOIpdE0XX0hwtpNCzF+QvgWzEjPZU+tOJb9UUpi8LKOyUzNpa7iVQ5MDF3WMfVScknroyxhrR7/FN3mYiquwNSKnP0Nk0WIkYZr+YHKgSVwzVNwHT9a+xK4yHuds0uNTq1/cXV4/p9mu7obJivJPpKOwtXFOFoncsm/E7BO4erk1CUncSU69zLPcy/Lt5xcHYXfel077xQ6n5ktbpl1nHcKF3xYhV5ZTlQpwWsTx3XPyVW4U5RygpR6ong967CrDm54NajyYyGEEEIIIYQQQgghhBBCCKG/7g9uv49BM2OL0wAAAABJRU5ErkJggg=="
   }
 ]
